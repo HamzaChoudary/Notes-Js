@@ -1,0 +1,39 @@
+
+// Concept of JavaScript
+
+
+// Variable and Constant 
+// The keywords in JavaScript define the variable scope and behaviors. 
+
+// var definition 
+// The keyword var has function scope and is hoisted.
+
+// Let and Const Definition
+// The let and Const keyword have block scope with const requiring and initial value and preventing reassignment.
+
+// What is Scope? 
+// The data inside the { }curle brackets are scope. 
+
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;
+
+// this is for constant variables
+// accountId = 2 // not allowed
+
+
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
+
+console.log(accountId);
+
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+// an other way to console multiple vaiables
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
